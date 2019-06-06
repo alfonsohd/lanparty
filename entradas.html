@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Entradas</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	</head>
+	<body>
+		<div id="cabezaent">
+			<div id="lanmenu">
+				<a href="lanparty.html"><img src="img/logo.png" id="imglogo"></a>
+				<input type="search" name="buscar" id="srch" placeholder="SEARCH">
+				<button id="bus">Buscar</button>
+				<nav>
+					<a href="lanparty.html" class="navln">Inicio</a>
+					<a href="entradas.html" class="navln">Entradas</a>
+					<a href="contacto.html" class="navln">Contacto</a>
+				</nav>
+			</div>
+			<div id="tltent">Entradas</div>
+		</div>
+		<div id="black">
+			<!-- no es el formulario real solo es para probar -->
+			<div id="formposen">
+			<!-- formulario -->
+				<form action="" method="post">
+					<input type="text" name="nombre" placeholder="Nombre" class="ent">
+					<input type="text" name="Apellidos" placeholder="Apellidos" class="ent" required>
+					<input type="Email" name="correo" placeholder="Correo Electronico" required class="ent">
+					
+					<select name="menu" class="ent">
+	  					<option value="1">Tipo de entrada</option>
+	  					<option value="2">Entrada Estudiante</option>
+	  					<option value="3">Entrada Profesional</option>
+	  					<option value="4">Entrada VIP</option>
+	  					<option value="5">Entrada solo ponencia</option>
+	  					<option value="6">Entrada solo taller</option>
+					</select>
+					<input type="button" name="enviar" value="Comprar" id="comp">
+					<!--
+					<textarea placeholder="Escribir mensaje" id="txta"></textarea>
+					<input type="button" value="Enviar" id="send"> -->
+				</form>
+			</div>
+			<div id="tipo">
+				<div id="tipoent">Tipo de entrada</div>
+				<div id="listaent">
+					<ul>
+						<li>Entrada Estudiante:</li>
+						<ul>
+							<li>25 euros la unidad. Acceso a evento y regalo
+								de kit de PartyUE</li>
+						</ul>
+					</ul>
+					<ul>
+						<li>Entrada Profesional:</li>
+						<ul>
+							<li>50 euros la unidad. Acceso a evento + kit de
+								PartyUE + Acceso a un taller y ponencia</li>
+						</ul>
+					</ul>
+					<ul>
+						<li>Entrada VIP:</li>
+						<ul>
+							<li>200 euros la unidad Acceso a evento + kit de PartyUE
+								+ Acceso a todos los talleres y ponencias</li>
+						</ul>
+					</ul>
+					<ul>
+						<li>Entrada solo ponencia: </li>
+						<ul>
+							<li>15 euros</li>
+						</ul>
+					</ul>
+					<ul>
+						<li>Entrada solo taller: </li>
+						<ul>
+							<li>15 euros</li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- footer con redes sociales -->
+			<div id="nav">
+				<div id="ft"><a id="cnt" href="contacto.html" target="_blank">Contacto</a>
+				</div>
+				<div id="txt">
+					<ul>
+						<li class="li">Inicio</li>
+						<li class="li">Sobre nosotros</li>
+						<li class="li">Servicios</li>
+						<li class="li">Contacto</li>
+					</ul>
+				</div>
+				<div id="sub">
+					<p id="sb">Subscribete para noticias</p>
+					<input type="text" name="sub" id="sub1" placeholder="   Introduce tu Email"><button>Subscribir</button>
+					<div id="red"></div>
+				</div>
+			</div>
+			<!-- pie de pagina -->
+			<div id="foot"><p id="fttx">2019 Copyright Alfonso Victor Vladimir</p></div>
+	</body>
+</html>
